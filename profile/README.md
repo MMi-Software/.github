@@ -8,7 +8,7 @@ Esta página sirve como punto de acceso rápido a los diferentes tipos de reposi
 - [Frontend de Aplicaciones](#frontend-de-aplicaciones)
 - [Templates](#templates)
 
-### 1. **Lambdas de AWS**
+### **Lambdas de AWS**
 
 Repositorios que contienen funciones Lambda implementadas en AWS. Estos proyectos suelen estar diseñados para manejar tareas específicas o procesar eventos de manera eficiente.
 - #### Documentación
@@ -17,7 +17,7 @@ Repositorios que contienen funciones Lambda implementadas en AWS. Estos proyecto
 - #### Listado de repositorios
   - [Ingesta SWD Permanente](https://github.com/MMi-Software/lambda-swd-perm): Lambda de ingesta de datos de SWD Permanante.
 
-### 2. **Microservicios**
+### **Microservicios**
 
 Repositorios que contienen microservicios diseñados para ejecutar servicios independientes dentro de un sistema más grande. Cada microservicio puede estar encargado de una funcionalidad y una tecnología especifica.
 - #### Documentación
@@ -27,7 +27,7 @@ Repositorios que contienen microservicios diseñados para ejecutar servicios ind
   - [Ingesta mSafe3](https://github.com/MMi-Software/mmi-micro-service-msafe3): Ingesta mSafe3
   - [Reportes](https://github.com/MMi-Software/microservice-reports): Crea, retorna y envia reportes de metricas.
 
-### 3. **Backends de Aplicaciones**
+### **Backends de Aplicaciones**
 
 Repositorios dedicados a los backends de aplicaciones, que pueden incluir APIs, servicios de datos y lógica de negocio para soportar aplicaciones web.
 - #### Documentación
@@ -40,7 +40,7 @@ Repositorios dedicados a los backends de aplicaciones, que pueden incluir APIs, 
   - [mLevel](https://github.com/MMi-Software/mlevel-back-end)
  
 
-### 4. **Frontend de Aplicaciones**
+### **Frontend de Aplicaciones**
 
 Repositorios que contienen el código fuente para el frontend de aplicaciones, incluyendo interfaces de usuario y componentes web.
 - #### Documentación
@@ -51,7 +51,7 @@ Repositorios que contienen el código fuente para el frontend de aplicaciones, i
   - [Virtual Assistant](https://github.com/MMi-Software/virtual-assistant-webapp)
   - [mLevel](https://github.com/MMi-Software/mlevel-front)
 
-### 5. **Templates**
+### **Templates**
 
 Repositorios genericos para la creación de elementos estandarizados.
 - #### Listado de repositorios
