@@ -1,20 +1,20 @@
-### Creación/Migración de repositorios
+### Creating/Migrating Repositories
 
-Pasos para estructurar la actualización de una Lambda en AWS de manera manual utilizando una rama específica del repositorio utilizando GitHub Actions.
+Steps to manually structure the update of a Lambda in AWS using a specific branch of the repository with GitHub Actions.
 
-1. **Configurar el repositorio de GitHub**:
-   - Crea un repositorio en GitHub utilizando el prefijo `lambda-`. Ejemplo: `lambda-mSand-ingesta`.
-   - Push del repositorio local en el repositorio remoto.
+1. **Configure the GitHub Repository**:
+   - Create a repository in GitHub using the prefix `lambda-`. Example: `lambda-mSand-ingestion`.
+   - Push the local repository to the remote repository.
 
-2. **Configurar la Lambda en AWS**:
-   - Crea una función Lambda en AWS.
-   - La función Lambda debe estar configurada para ser actualizada mediante la carga de un nuevo paquete (ZIP).
+2. **Configure the Lambda in AWS**:
+   - Create a Lambda function in AWS.
+   - The Lambda function must be configured to be updated by uploading a new package (ZIP).
 
-3. **Configurar GitHub Actions**:
-   - En el repositorio remoto, crear un archivo de flujo de trabajo (`.github/workflows/deploy.yml`).
-   - Este flujo de trabajo se disparará desde la consola de actions del repositorio
+3. **Configure GitHub Actions**:
+   - In the remote repository, create a workflow file (`.github/workflows/deploy.yml`).
+   - This workflow will be triggered from the repository’s Actions console.
 
-   Ejemplo del job de dev, se debe configurar para cada uno de los ambientes (cambiar el nombre del lambda tu-nombre-de-lambda-dev por el configurado en AWS):
+   Example of the dev job; it should be configured for each environment (change the lambda name `your-lambda-name-dev` to the one configured in AWS):
 ```yaml
 name: Deploy Lambda
 
@@ -26,7 +26,7 @@ on:
   pull_request:
     branches:
       - main
-  workflow_dispatch: # Permite el disparo manual del workflow
+  workflow_dispatch: # Allows manual triggering of the workflow
     inputs:
       environment:
         description: 'Choose the environment to deploy'
@@ -54,22 +54,22 @@ jobs:
       - name: Zip Lambda Function
         run: zip -r lambda.zip .
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v2 #configurar las credenciales de AWS necesarias para interactuar con los servicios de AWS.
+        uses: aws-actions/configure-aws-credentials@v2 #configure the necessary AWS credentials to interact with AWS services.
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_DEV }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV }}
           region: us-east-1
-      - name: Deploy to AWS Lambda (Dev) #actualizar el código de una función Lambda con el archivo ZIP generado.
+      - name: Deploy to AWS Lambda (Dev) #update the code of a Lambda function with the generated ZIP file.
         run: |
           aws lambda update-function-code \
-            --function-name tu-nombre-de-lambda-dev \
+            --function-name your-lambda-name-dev \
             --zip-file fileb://lambda.zip
 ```
 
-4. **Configurar las credenciales en GitHub**:
-   - Ve a los ajustes de tu repositorio en GitHub y añade las credenciales de AWS (Access Key ID y Secret Access Key) en la sección de "Secrets". Esto se hace en "Settings" > "Secrets and variables" > "Actions".
-   - Crea dos secretos: `AWS_ACCESS_KEY_ID` y `AWS_SECRET_ACCESS_KEY`, con las credenciales correspondientes, teniendo en cuenta que las variables finalizan con el ambiente: `DEV`, `QA` o `PROD`
+4. **Configure Credentials in GitHub**:
+   - Go to your repository settings in GitHub and add the AWS credentials (Access Key ID and Secret Access Key) in the "Secrets" section. This is done under "Settings" > "Secrets and variables" > "Actions".
+   - Create two secrets: `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`, with the corresponding credentials, keeping in mind that the variables end with the environment: `DEV`, `QA`, or `PROD`.
 
-5. **Probar la integración**:
-   - Realiza una modificación en el código. Push a la rama especificada.
-   - Utiliza la consola de los Actions para disparar el deploy.
+5. **Test the Integration**:
+   - Make a modification to the code. Push to the specified branch.
+   - Use the Actions console to trigger the deploy.
