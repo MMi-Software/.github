@@ -14,6 +14,7 @@ This page serves as a quick access point to different types of repositories. A b
 Repositories containing Lambda functions implemented in AWS. These projects are usually designed to handle specific tasks or efficiently process events.
 - #### Documentation
   - [Creating/Migrating New Repositories](lambda-new.md)
+  - [AWS Local Test](lambda-local-test.md)
 
 - #### Repository List
   - [Permanent SWD Ingestion](https://github.com/MMi-Software/lambda-swd-perm): Permanent SWD data ingestion Lambda.
