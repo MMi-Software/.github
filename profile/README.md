@@ -1,58 +1,59 @@
-# Control de Respositorios de MMi
+# MMi Repository Control
 
-Esta página sirve como punto de acceso rápido a los diferentes tipos de repositorios. Se anexa una breve descripción de cada tipo de repositorio y cómo están organizados. Utiliza los enlaces para acceder directamente a los proyectos correspondientes.
-## Índice de Repositorios
-- [Lambdas de AWS](#lambdas-de-aws)
-- [Microservicios](#microservicios)
-- [Backends de Aplicaciones](#backends-de-aplicaciones)
-- [Frontend de Aplicaciones](#frontend-de-aplicaciones)
+This page serves as a quick access point to different types of repositories. A brief description of each type of repository and how they are organized is provided. Use the links to access the corresponding projects directly.
+
+## Repository Index
+- [AWS Lambdas](#aws-lambdas)
+- [Microservices](#microservices)
+- [Application Backends](#application-backends)
+- [Application Frontends](#application-frontends)
 - [Templates](#templates)
 
-### **Lambdas de AWS**
+### **AWS Lambdas**
 
-Repositorios que contienen funciones Lambda implementadas en AWS. Estos proyectos suelen estar diseñados para manejar tareas específicas o procesar eventos de manera eficiente.
-- #### Documentación
-  - [Creación/Migración de repositorios nuevos](lambda-new.md)
+Repositories containing Lambda functions implemented in AWS. These projects are usually designed to handle specific tasks or efficiently process events.
+- #### Documentation
+  - [Creating/Migrating New Repositories](lambda-new.md)
 
-- #### Listado de repositorios
-  - [Ingesta SWD Permanente](https://github.com/MMi-Software/lambda-swd-perm): Lambda de ingesta de datos de SWD Permanante.
+- #### Repository List
+  - [Permanent SWD Ingestion](https://github.com/MMi-Software/lambda-swd-perm): Permanent SWD data ingestion Lambda.
 
-### **Microservicios**
+### **Microservices**
 
-Repositorios que contienen microservicios diseñados para ejecutar servicios independientes dentro de un sistema más grande. Cada microservicio puede estar encargado de una funcionalidad y una tecnología especifica.
-- #### Documentación
-  - [Creación/Migración de repositorios nuevos](ms-new.md)
+Repositories containing microservices designed to run independent services within a larger system. Each microservice may be responsible for a specific functionality and technology.
+- #### Documentation
+  - [Creating/Migrating New Repositories](ms-new.md)
 
-- #### Listado de repositorios
-  - [Ingesta mSafe3](https://github.com/MMi-Software/mmi-micro-service-msafe3): Ingesta mSafe3
-  - [Reportes](https://github.com/MMi-Software/microservice-reports): Crea, retorna y envia reportes de metricas.
+- #### Repository List
+  - [mSafe3 Ingestion](https://github.com/MMi-Software/mmi-micro-service-msafe3): mSafe3 Ingestion
+  - [Reports](https://github.com/MMi-Software/microservice-reports): Creates, returns, and sends metric reports.
 
-### **Backends de Aplicaciones**
+### **Application Backends**
 
-Repositorios dedicados a los backends de aplicaciones, que pueden incluir APIs, servicios de datos y lógica de negocio para soportar aplicaciones web.
-- #### Documentación
-  - [Creación/Migración de repositorios nuevos](be-new.md)
+Repositories dedicated to application backends, which may include APIs, data services, and business logic to support web applications.
+- #### Documentation
+  - [Creating/Migrating New Repositories](be-new.md)
     
-- #### Listado de repositorios
+- #### Repository List
   - [mSuite](https://github.com/MMi-Software/mmi-msuite-backend)
   - [Virtual Assistant](https://github.com/MMi-Software/virtual-assistant-backend)
   - [Measures](https://github.com/MMi-Software/measures_api)
   - [mLevel](https://github.com/MMi-Software/mlevel-back-end)
  
 
-### **Frontend de Aplicaciones**
+### **Application Frontends**
 
-Repositorios que contienen el código fuente para el frontend de aplicaciones, incluyendo interfaces de usuario y componentes web.
-- #### Documentación
-  - [Creación/Migración de repositorios nuevos](fe-new.md)
+Repositories containing the source code for application frontends, including user interfaces and web components.
+- #### Documentation
+  - [Creating/Migrating New Repositories](fe-new.md)
     
-- #### Listado de repositorios
+- #### Repository List
   - [mSuite](https://github.com/MMi-Software/mmi-msuite-webapp)
   - [Virtual Assistant](https://github.com/MMi-Software/virtual-assistant-webapp)
   - [mLevel](https://github.com/MMi-Software/mlevel-front)
 
 ### **Templates**
 
-Repositorios genericos para la creación de elementos estandarizados.
-- #### Listado de repositorios
-  - [Microservicios](https://github.com/MMi-Software/mmi-template)
+Generic repositories for creating standardized elements.
+- #### Repository List
+  - [Microservices](https://github.com/MMi-Software/mmi-template)
