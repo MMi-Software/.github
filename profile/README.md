@@ -22,8 +22,8 @@ Repositories containing Lambda functions implemented in AWS. These projects are 
 ### **Microservices**
 
 Repositories containing microservices designed to run independent services within a larger system. Each microservice may be responsible for a specific functionality and technology.
-- #### Documentation
-  - [Creating/Migrating New Repositories](ms-new.md)
+// - #### Documentation
+//  - [Creating/Migrating New Repositories](ms-new.md)
 
 - #### Repository List
   - [mSafe3 Ingestion](https://github.com/MMi-Software/mmi-micro-service-msafe3): mSafe3 Ingestion
@@ -32,8 +32,8 @@ Repositories containing microservices designed to run independent services withi
 ### **Application Backends**
 
 Repositories dedicated to application backends, which may include APIs, data services, and business logic to support web applications.
-- #### Documentation
-  - [Creating/Migrating New Repositories](be-new.md)
+//- #### Documentation
+//  - [Creating/Migrating New Repositories](be-new.md)
     
 - #### Repository List
   - [mSuite](https://github.com/MMi-Software/mmi-msuite-backend)
@@ -45,8 +45,8 @@ Repositories dedicated to application backends, which may include APIs, data ser
 ### **Application Frontends**
 
 Repositories containing the source code for application frontends, including user interfaces and web components.
-- #### Documentation
-  - [Creating/Migrating New Repositories](fe-new.md)
+//- #### Documentation
+//  - [Creating/Migrating New Repositories](fe-new.md)
     
 - #### Repository List
   - [mSuite](https://github.com/MMi-Software/mmi-msuite-webapp)
