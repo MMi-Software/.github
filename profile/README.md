@@ -12,8 +12,7 @@ Esta página sirve como punto de acceso rápido a los diferentes tipos de reposi
 
 Repositorios que contienen funciones Lambda implementadas en AWS. Estos proyectos suelen estar diseñados para manejar tareas específicas o procesar eventos de manera eficiente.
 - #### Documentación
-  - [Creación de repositorios nuevos](lambda-new.md)
-  - [Migración de funciones vigentes](lambda-migrate.md)
+  - [Creación/Migración de repositorios nuevos](lambda-new.md)
 
 - #### Listado de repositorios
   - [Ingesta SWD Permanente](https://github.com/MMi-Software/lambda-swd-perm): Lambda de ingesta de datos de SWD Permanante.
@@ -22,8 +21,7 @@ Repositorios que contienen funciones Lambda implementadas en AWS. Estos proyecto
 
 Repositorios que contienen microservicios diseñados para ejecutar servicios independientes dentro de un sistema más grande. Cada microservicio puede estar encargado de una funcionalidad y una tecnología especifica.
 - #### Documentación
-  - [Creación de repositorios nuevos](ms-new.md)
-  - [Migración de funciones vigentes](ms-migrate.md)
+  - [Creación/Migración de repositorios nuevos](ms-new.md)
 
 - #### Listado de repositorios
   - [Ingesta mSafe3](https://github.com/MMi-Software/mmi-micro-service-msafe3): Ingesta mSafe3
@@ -33,8 +31,7 @@ Repositorios que contienen microservicios diseñados para ejecutar servicios ind
 
 Repositorios dedicados a los backends de aplicaciones, que pueden incluir APIs, servicios de datos y lógica de negocio para soportar aplicaciones web.
 - #### Documentación
-  - [Creación de repositorios nuevos](be-new.md)
-  - [Migración de funciones vigentes](be-migrate.md)
+  - [Creación/Migración de repositorios nuevos](be-new.md)
     
 - #### Listado de repositorios
   - [mSuite](https://github.com/MMi-Software/mmi-msuite-backend)
@@ -47,8 +44,7 @@ Repositorios dedicados a los backends de aplicaciones, que pueden incluir APIs, 
 
 Repositorios que contienen el código fuente para el frontend de aplicaciones, incluyendo interfaces de usuario y componentes web.
 - #### Documentación
-  - [Creación de repositorios nuevos](fe-new.md)
-  - [Migración de funciones vigentes](fe-migrate.md)
+  - [Creación/Migración de repositorios nuevos](fe-new.md)
     
 - #### Listado de repositorios
   - [mSuite](https://github.com/MMi-Software/mmi-msuite-webapp)
