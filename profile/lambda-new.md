@@ -14,7 +14,7 @@ Pasos para estructurar la actualización de una Lambda en AWS de manera manual u
    - En el repositorio remoto, crear un archivo de flujo de trabajo (`.github/workflows/deploy.yml`).
    - Este flujo de trabajo se disparará desde la consola de actions del repositorio
 
-   Ejemplo del job de dev, se debe configurar para cada uno de los ambientes:
+   Ejemplo del job de dev, se debe configurar para cada uno de los ambientes (cambiar el nombre del lambda tu-nombre-de-lambda-dev por el configurado en AWS):
 ```yaml
 name: Deploy Lambda
 
