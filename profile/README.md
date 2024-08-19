@@ -25,6 +25,8 @@ Repositories containing Lambda functions implemented in AWS. These projects are 
 ### **Microservices**
 
 Repositories containing microservices designed to run independent services within a larger system. Each microservice may be responsible for a specific functionality and technology.
+- #### Documentation
+  - [Creating/Migrating New Repositories](ms-new.md)
 
 - #### Repository List
   - [mSafe3 Ingestion](https://github.com/MMi-Software/mmi-micro-service-msafe3): mSafe3 Ingestion
