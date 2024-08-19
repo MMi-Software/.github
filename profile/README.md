@@ -2,6 +2,9 @@
 
 This page serves as a quick access point to different types of repositories. A brief description of each type of repository and how they are organized is provided. Use the links to access the corresponding projects directly.
 
+## General Documentation
+- [Development Branch Arquitecture](doc-branch.md)
+
 ## Repository Index
 - [AWS Lambdas](#aws-lambdas)
 - [Microservices](#microservices)
