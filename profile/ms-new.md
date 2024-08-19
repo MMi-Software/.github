@@ -58,7 +58,7 @@
      - URI de imagen de contenedor: Selecciona el ECR creado anteriormente (`ms-reports`).
    - **Configuración de implementación:**
      - Desencadenador de implementación: Automático.
-     - Roles de acceso: Selecciona o crea `AppRunnerAccessRole`.
+     - Roles de acceso: Selecciona o crea `AppRunnerECRAccessRole`.
    - **Configuración de servicio:**
      - Nombre del servicio: Usa el mismo nombre que el ECR (`ms-reports`).
      - Variables de entorno: Configura las variables necesarias para tu aplicación.
@@ -66,7 +66,7 @@
 ## Paso 4: Configurar GitHub Actions para Despliegue Automático
 
 1. **Crear y Configurar el Archivo de Workflow:**
-   - En la raíz de tu repositorio en GitHub, crea un archivo en `.github/workflows/deploy.yml` con el siguiente contenido:
+   - En la raíz de tu repositorio en GitHub, crea un archivo en `.github/workflows/deploy.yml` con el siguiente contenido (este ejemplo solo configura el ambiente de dev. Los demas ambientes son una copia del mismo, pero hacen referencia a las variables de entorno respectivas):
    ```yaml
    name: Deploy to AWS App Runner
 
