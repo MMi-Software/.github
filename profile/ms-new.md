@@ -32,7 +32,7 @@
    ```
 
 2. **Construir y Subir la Imagen al ECR:**
-   - Desde tu terminal, ejecuta los siguientes comandos:
+   - Desde tu terminal, ejecuta los comandos de envío de ECR (disponibles dentro de la configuración del ECR). Los comandos tienen este formato:
    ```bash
    # Construir la imagen Docker
    docker build -t ms-reports .
