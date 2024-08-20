@@ -58,7 +58,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID_DEV }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY_DEV }}
-          region: us-east-1
+          aws-region: us-east-1
       - name: Deploy to AWS Lambda (Dev) #update the code of a Lambda function with the generated ZIP file.
         run: |
           aws lambda update-function-code \
