@@ -12,6 +12,7 @@ This page serves as a quick access point to different types of repositories. A b
 - [Application Frontends](#application-frontends)
 - [Templates](#templates)
 
+
 ### **AWS Lambdas**
 
 Repositories containing Lambda functions implemented in AWS. These projects are usually designed to handle specific tasks or efficiently process events.
@@ -51,9 +52,12 @@ Repositories containing the source code for application frontends, including use
   - [mSuite](https://github.com/MMi-Software/mmi-msuite-webapp)
   - [Virtual Assistant](https://github.com/MMi-Software/virtual-assistant-webapp)
   - [mLevel](https://github.com/MMi-Software/mlevel-front)
+  - [Drillout Cameras](https://github.com/MMi-Software/drillout-cameras)
+    
 
 ### **Templates**
 
 Generic repositories for creating standardized elements.
 - #### Repository List
   - [Microservices](https://github.com/MMi-Software/mmi-template)
+  - [Desktop App](https://github.com/MMi-Software/tp-desktop-app)
