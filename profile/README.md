@@ -42,7 +42,7 @@ Repositories dedicated to application backends, which may include APIs, data ser
   - [Virtual Assistant](https://github.com/MMi-Software/virtual-assistant-backend)
   - [Measures](https://github.com/MMi-Software/measures_api)
   - [mLevel](https://github.com/MMi-Software/mlevel-back-end)
-  - [Drillot](https://github.com/MMi-Software/be-drillout-cameras)
+  - [Drillout](https://github.com/MMi-Software/be-drillout-cameras)
  
 
 ### **Application Frontends**
