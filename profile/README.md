@@ -65,4 +65,5 @@ Repositories containing the source code for application frontends, including use
 Generic repositories for creating standardized elements.
 - #### Repository List
   - [Microservices](https://github.com/MMi-Software/mmi-template)
-  - [Desktop App](https://github.com/MMi-Software/tp-desktop-app)
+  - [Desktop Apps](https://github.com/MMi-Software/tp-desktop-app)
+  - [AWS lambdas](https://github.com/MMi-Software/mmi-lambda-template)
