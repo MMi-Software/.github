@@ -44,6 +44,7 @@ Repositories dedicated to application backends, which may include APIs, data ser
   - [Measures](https://github.com/MMi-Software/measures_api)
   - [mLevel](https://github.com/MMi-Software/mlevel-back-end)
   - [Drillout Cameras](https://github.com/MMi-Software/be-drillout-cameras)
+  - [ms-alarms](https://github.com/MMi-Software/ms-alarms)
  
 
 ### **Application Frontends**
