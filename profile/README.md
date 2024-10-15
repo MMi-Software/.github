@@ -33,6 +33,7 @@ Repositories containing microservices designed to run independent services withi
   - [mSafe3 Ingestion](https://github.com/MMi-Software/mmi-micro-service-msafe3): mSafe3 Ingestion
   - [Reports](https://github.com/MMi-Software/microservice-reports): Creates, returns, and sends metric reports.
   - [Alarms](https://github.com/MMi-Software/ms-alarms): Handle, open, close and notify device alarms.
+  - [Assignation](https://github.com/MMi-Software/ms-assignation): Manage Contact groups and device assignation.
 
 ### **Application Backends**
 
