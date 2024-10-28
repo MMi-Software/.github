@@ -34,6 +34,7 @@ Repositories containing microservices designed to run independent services withi
   - [Reports](https://github.com/MMi-Software/microservice-reports): Creates, returns, and sends metric reports.
   - [Alarms](https://github.com/MMi-Software/ms-alarms): Handle, open, close and notify device alarms.
   - [Assignation](https://github.com/MMi-Software/ms-assignation): Manage Contact groups and device assignation.
+  - [Notification](https://github.com/MMi-Software/ms-notification): Send notifications and manage status.
 
 ### **Application Backends**
 
