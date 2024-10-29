@@ -35,6 +35,7 @@ Repositories containing microservices designed to run independent services withi
   - [Alarms](https://github.com/MMi-Software/ms-alarms): Handle, open, close and notify device alarms.
   - [Assignation](https://github.com/MMi-Software/ms-assignation): Manage Contact groups and device assignation.
   - [Notification](https://github.com/MMi-Software/ms-notification): Send notifications and manage status.
+  - [Cameras](https://github.com/MMi-Software/ms-cameras): Events, photos and cameras live.
 
 ### **Application Backends**
 
