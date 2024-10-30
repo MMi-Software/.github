@@ -4,6 +4,7 @@ This page serves as a quick access point to different types of repositories. A b
 
 ## General Documentation
 - [Development Branch Arquitecture](doc-branch.md)
+- [Telemetry Platform Documentation](telemetry_platform_documentation.md)
 
 ## Repository Index
 - [AWS Lambdas](#aws-lambdas)
