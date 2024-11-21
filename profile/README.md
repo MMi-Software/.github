@@ -37,6 +37,7 @@ Repositories containing microservices designed to run independent services withi
   - [Assignation](https://github.com/MMi-Software/ms-assignation): Manage Contact groups and device assignation.
   - [Notification](https://github.com/MMi-Software/ms-notification): Send notifications and manage status.
   - [Cameras](https://github.com/MMi-Software/ms-cameras): Events, photos and cameras live.
+  - [MQTT Client](https://github.com/MMi-Software/ms-mqtt-client): Connect to MQTT host and telecomand on local.
 
 ### **Application Backends**
 
