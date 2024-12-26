@@ -51,6 +51,7 @@ Estos microservicios están desplegados en AWS AppRunner y se actualizan automá
 ### Base de Datos
 - **TimescaleDB**: Base de datos principal en PostgreSQL, utilizada para almacenar métricas históricas y en vivo. Actualmente, esta base presenta problemas de diseño que afectan su rendimiento, por lo que es un área a mejorar.
 - **DynamoDB**: Base de datos secundaria en AWS, cuyo uso se está reduciendo y se prevé su descontinuación.
+- **TimeStream**: Algunos dispositivos (mWatch, mLock, etc) utilizan la base de series temporales de AWS. Este uso esta destinado a deprecarse y utilizar el servicio de TimeScale.
 - **Redis**: Base de datos de caché en Redis para mejorar la velocidad de acceso a ciertos datos. Actualmente, sólo está integrada en algunos proyectos, pero se planea extender su uso.
 
 ## Componentes del Sistema
