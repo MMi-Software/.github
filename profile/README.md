@@ -46,6 +46,7 @@ Repositories dedicated to application backends, which may include APIs, data ser
 - #### Repository List
   - [mSuite](https://github.com/MMi-Software/mmi-msuite-backend)
   - [Virtual Assistant](https://github.com/MMi-Software/virtual-assistant-backend)
+  - [Virtual Assistant Python](https://github.com/MMi-Software/virtual-assistant)
   - [Measures](https://github.com/MMi-Software/measures_api)
   - [mLevel](https://github.com/MMi-Software/mlevel-back-end)
   - [Drillout Cameras](https://github.com/MMi-Software/be-drillout-cameras)
