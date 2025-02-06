@@ -62,6 +62,7 @@ Repositories containing the source code for application frontends, including use
   - [Virtual Assistant](https://github.com/MMi-Software/virtual-assistant-webapp)
   - [mLevel](https://github.com/MMi-Software/mlevel-front)
   - [Drillout Cameras](https://github.com/MMi-Software/drillout-cameras)
+  - [Anubis](https://github.com/MMi-Software/anubis-webapp)
     
 
 ### **Templates**
