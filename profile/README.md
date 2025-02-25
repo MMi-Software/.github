@@ -38,6 +38,7 @@ Repositories containing microservices designed to run independent services withi
   - [Notification](https://github.com/MMi-Software/ms-notification): Send notifications and manage status.
   - [Cameras](https://github.com/MMi-Software/ms-cameras): Events, photos and cameras live.
   - [MQTT Client](https://github.com/MMi-Software/ms-mqtt-client): Connect to MQTT host and telecomand on local.
+  - [Anubis](https://github.com/MMi-Software/ms-anubis): mSuite Administration Tool (MAT).
 
 ### **Application Backends**
 
@@ -50,7 +51,6 @@ Repositories dedicated to application backends, which may include APIs, data ser
   - [Measures](https://github.com/MMi-Software/measures_api)
   - [mLevel](https://github.com/MMi-Software/mlevel-back-end)
   - [Drillout Cameras](https://github.com/MMi-Software/be-drillout-cameras)
-  - [ms-alarms](https://github.com/MMi-Software/ms-alarms)
  
 
 ### **Application Frontends**
