@@ -39,6 +39,7 @@ Repositories containing microservices designed to run independent services withi
   - [Cameras](https://github.com/MMi-Software/ms-cameras): Events, photos and cameras live.
   - [MQTT Client](https://github.com/MMi-Software/ms-mqtt-client): Connect to MQTT host and telecomand on local.
   - [Anubis](https://github.com/MMi-Software/ms-anubis): mSuite Administration Tool (MAT).
+  - [Dumps](https://github.com/MMi-Software/ms-dumps): Weight administration: partials, totals, dumps, etc.
 
 ### **Application Backends**
 
