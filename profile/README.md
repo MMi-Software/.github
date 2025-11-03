@@ -12,6 +12,7 @@ This page serves as a quick access point to different types of repositories. A b
 - [Application Backends](#application-backends)
 - [Application Frontends](#application-frontends)
 - [Templates](#templates)
+- [Documentation](#documentation)
 
 
 ### **AWS Lambdas**
