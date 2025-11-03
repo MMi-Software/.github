@@ -12,7 +12,7 @@ This page serves as a quick access point to different types of repositories. A b
 - [Application Backends](#application-backends)
 - [Application Frontends](#application-frontends)
 - [Templates](#templates)
-- [Documentation](#documentation)
+- [Documentation](#documentation-apps)
 
 
 ### **AWS Lambdas**
@@ -78,7 +78,7 @@ Generic repositories for creating standardized elements.
   - [Desktop Apps](https://github.com/MMi-Software/tp-desktop-app)
   - [AWS lambdas](https://github.com/MMi-Software/mmi-lambda-template)
 
- ### **Documentation**
+ ### **Documentation Apps**
 
  Repositories containing the source code for documentation application frontends, including user interfaces and web components.
 
