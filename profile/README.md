@@ -76,3 +76,11 @@ Generic repositories for creating standardized elements.
   - [Microservices](https://github.com/MMi-Software/mmi-template)
   - [Desktop Apps](https://github.com/MMi-Software/tp-desktop-app)
   - [AWS lambdas](https://github.com/MMi-Software/mmi-lambda-template)
+
+ ### **Documentation**
+
+ Repositories containing the source code for documentation application frontends, including user interfaces and web components.
+
+ - #### Reporitory List
+   - [mSuite](https://github.com/MMi-Software/msuite-docs)
+   - [MAT](https://github.com/MMi-Software/mat-docs)
